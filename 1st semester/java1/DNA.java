@@ -3,8 +3,8 @@ import acm.program.*;
 
 public class DNA extends Program {
 	public void run() {
-		String longDNA = readLine("Give the long DNA strand: ");
-		String shortDNA = readLine("Give the short DNA strand: ");
+		String longDNA = readLine("Give the long DNA : ");
+		String shortDNA = readLine("Give the short DNA : ");
 		println("The position that the match is made is "+findFirstMatchingPosition(shortDNA,longDNA));
 	}
 	
