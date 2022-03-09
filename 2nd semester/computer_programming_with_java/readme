@@ -1,1 +1,243 @@
+Product
+    • String name
+    • int year
+    • String constructor
+    • double firstprice
+    • String imagepath
+    • String toString()
+Accessories
+    • double discount
+    • toString() override
+    
+ ➔ Motherboard
+    • String cpuType
+    • static final String TYPE_AMD = “AMD”
+    • static final String TYPE_INTEL= “Intel”
+    • int capacity
+    • int numberOfSATA
+    • boolean isIntel()
+    • boolean isAMD()
+    • toString() override
+➔ CPU
+    • double speed
+    • int numberOfCores
+    • boolean graphics
+    • String getGraphics()
+    • String toString() override
+➔ RAM
+    • int frequency
+    • int capacity
+    • Type type
+    • toString() override
+ ➔ GraphicsCard
+    • String chipset
+    • int memory
+    • static final String TYPE_nVidia = “nVidia”
+    • static final String TYPE_AMD = “AMD”
+    • boolean isnVidia()
+    • boolean isAMD()
+    • String toString() override
+ ➔ HardDrive
+    • String type
+    • double size
+    • int capacity
+    • static final String TYPE_HDD = “HDD”
+    • static final String TYPE_SSD=”SSD”
+    • boolean isHDD()
+    • boolean isSSD()
+    • String toString() override Peripherals
+    • double discount
+    • toString() override
+ ➔ Screen
+    • String type
+    • double dimension
+    • String resolution
+    • static final String TYPE_LCD = “LCD”
+    • static final String TYPE_LED = “LED”
+    • String port
+    • boolean isLCD()
+    • boolean isLED()
+    • String toString() override
+ ➔ Keyboard
+    • String connection
+    • static final String CONNECTION_WIRED = “Wired”
+    • static final String CONNECTION_WIRELESS = “Wireless”
+    • boolean isWired()
+    • boolean isWireless()
+    • String toString() override
+ ➔ Mouse
+    • String technology
+    • String connection
+    • static final String CONNECTION_WIRED = “Wired”
+    • static final String CONNECTION_WIRELESS = “Wireless”
+    • static final String TECHNOLOGY_OPTICAL = “Optical”
+    • static final String TECHNOLOGY_LASER = “Laser”
+    • boolean isWired()
+    • boolean isWireless()
+    • boolean isLaser()
+    • boolean isOptical()
+    • String toString() override
+ ➔ Printer
+    • String technology
+    • String printingType
+    • static final String PRINTINGTYPE_COLORED = “Colored”
+    • static final String PRINTINGTYPE_BLACK_WHITE = “Black andWhite”
+    • static final String TECHNOLOGY_LASER = “Laser”
+    • static final String TECHNOLOGY_INKJET = “Inkjet”
+    • boolean isLaser()
+    • boolean isInkjet()
+    • boolean isColored()
+    • boolean isBlackAndWhite()
+    • String toString() override
+MyOrder
+    • static int code = 1
+    • int prcode = code
+    • final static int plusDays = 3
+    • Product item
+    • static String name
+    • static String phone
+    • double finalprice
+    • boolean done
+    • String arrday
+    • String today = curday.format(localDate) where :
+        LocalDate localDate = new LocalDate.now()
+        DateTimeFormatter curday = DateTimeFormatter.ofPattern(“dd//MM//yyyy”)
+    • static void codeIncrease()
+    • String situation()
+    • String arrivalDay()
+    • String toString()
+MySale
+    • static int code = 1
+    • Product item
+    • static String name
+    • static String phone
+    • int prcode = code
+    • double finalprice
+    • String salesday = today.format(localDate) where :
+     LocalDate localDate = new LocalDate.now()
+     DateTimeFormatter today = DateTimeFormatter.ofPattern(“dd//MM//yyyy”)
+    • void codeIncrease()
+    • String toString()
+Availables
+    • Product item
+    • int availability
+    • String salesday = today.format(localDate) where :
+         LocalDate localDate = new LocalDate.now()
+         DateTimeFormatter today = DateTimeFormatter.ofPattern(“dd//MM//yyyy”)
+    • void decreaseAvailability()
+    • String arrivalDay()
+    • String toString()
+MyCatalogs
+    • Product item
+    • MyOrder ordered
+    • MySale sold
+    • static ArrayList<Availables> availables = new ArrayList<Availables>()
+    • ArrayList<MyOrder> fororder = new ArrayList<MyOrder>()
+    • ArrayList<MySale> forsale = new ArrayList<MySale>()
+    • static final double AccessoriesDiscount = 0.2
+    • static final double PeripheralsDiscount = 0.25
+    • void addAll()
+    • void showMotherboards()
+    • void showCPUs()
+    • void showRAMs()
+    • void showGraphicsCards()
+    • void showHardDrives()
+    • void showPrinters()
+    • void showKeyboards()
+    • void showMouses()
+    • void Screens()
+    • void showSold()
+    • void showOrdered()
+    • void addSold()
+    • void addOrdered()
+    • void addAvaillables()
+    
+Order
+    • ArrayList <MyOrder> Orders = new ArrayList<MyOrder>()
+    • void loadFile()
+    • MyOrder get(int i)
+    • int size()
+Sale
+    • ArrayList <MySale> Sales = new ArrayList<MySale>()
+    • void loadFile()
+    • MySale get(int i)
+    • in size()
+OrderWL
+    • static ArrayList<MyOrder> Order = new ArrayList<MyOrder>()
+    • void createFile()
+    • void printFile()
+    • void add(MyOrder b)
+SaleWL
+    • static ArrayList<MySale> Sale = new ArrayList<MySale>()
+    • void createFile()
+    • void printFile()
+    • void add(MySale b)
+MyProducts
+    • static final double AccessoriesDiscount = 0.2
+    • static final double PeripheralsDiscount = 0.25
+    • void loadFile()
+    • Availables get(int I)
+    • int size()
+    
+Info
+    • Availables a
+    • JButton but1
+    • JButton but2
+    • JLabel label
+    • JTextArea resultArea
+    • MyCatalogs catalogs
+    • MyOrder order
+    • MySale sale
+    • void actionPerformed()
+    • void drawFrame()
+    • static boolean isNumber()
+InfoOrder
+    • MyOrder a
+    • JButton but1
+    • JLabel label
+    • DefaultListModel listModel
+    • JTextArea resultArea
+    • MyCatalogs catalogs
+    • MySale sale
+    • void actionPerformed()
+    • void drawFrame()
+    • static boolean isNumber()
+InfoSale
+    • MySale a
+    • JLabel label
+    • DefaultListModel listModel
+    • JTextArea resultArea
+    • MyCatalogs catalogs
+    • void drawFrame()
 
+------------------------------------------------------------
+mainApp
+      • JFrame frame
+      • JMenu menu
+      • JMenuItem j1,j2,j3,j4,j5,j6,j7
+      • JMenuBar menubar
+      • JPanel availables_panel
+      • JPanel sales_panel
+      • JPanel orders_panel
+      • JTabbedPane tabs
+      • JPanel tabPanel
+      • static JList list,list2
+      • static JList list1
+      • MyProducts serv1
+      • Order serv2
+      • Sale serv3
+      • MyOrder ord
+      • MySale sal
+      • MyCatalogs catalogs = new MyCatalogs()
+      • int forlist = 0
+      • Availables avail
+      • boolean bool
+      • static DefaultListModel full1,full2
+      • DefaultListModel sales
+      • void actionPerformed()
+      • void mouseClicked()
+      • void mouseExited()
+      • void mouseEntered()
+      • void mouseReleased()
+      • void mousePressed()
+      • static void main(String [] args
