@@ -1,0 +1,15 @@
+﻿  Image.cpp
+Image.cpp(23): warning C4244: '=': conversion from 'unsigned int' to 'imaging::component_t', possible loss of data
+Image.cpp(24): warning C4244: '=': conversion from 'unsigned int' to 'imaging::component_t', possible loss of data
+Image.cpp(25): warning C4244: '=': conversion from 'unsigned int' to 'imaging::component_t', possible loss of data
+Image.cpp(102): warning C4018: '<': signed/unsigned mismatch
+Image.cpp(120): warning C4018: '<': signed/unsigned mismatch
+Image.cpp(121): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+Image.cpp(122): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+Image.cpp(123): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+  main.cpp
+  Generating code
+  All 223 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Project1.vcxproj -> C:\Users\dss\documents\visual studio 2015\Projects\Project1\Release\neg.exe
+  Project1.vcxproj -> C:\Users\dss\documents\visual studio 2015\Projects\Project1\Release\neg.pdb (Full PDB)
