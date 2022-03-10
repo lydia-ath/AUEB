@@ -1,0 +1,14 @@
+﻿  main.cpp
+  Image.cpp
+c:\users\dss\desktop\project1\project1\image.cpp(23): warning C4244: '=': conversion from 'unsigned int' to 'imaging::component_t', possible loss of data
+c:\users\dss\desktop\project1\project1\image.cpp(24): warning C4244: '=': conversion from 'unsigned int' to 'imaging::component_t', possible loss of data
+c:\users\dss\desktop\project1\project1\image.cpp(25): warning C4244: '=': conversion from 'unsigned int' to 'imaging::component_t', possible loss of data
+c:\users\dss\desktop\project1\project1\image.cpp(102): warning C4018: '<': signed/unsigned mismatch
+c:\users\dss\desktop\project1\project1\image.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\dss\desktop\project1\project1\image.cpp(121): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\dss\desktop\project1\project1\image.cpp(122): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+c:\users\dss\desktop\project1\project1\image.cpp(123): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+  Generating Code...
+c:\users\dss\desktop\project1\project1\image.cpp(78): warning C4172: returning address of local variable or temporary: left
+  Project1.vcxproj -> C:\Users\dss\Desktop\Project1\Debug\neg.exe
+  Project1.vcxproj -> C:\Users\dss\Desktop\Project1\Debug\neg.pdb (Partial PDB)
