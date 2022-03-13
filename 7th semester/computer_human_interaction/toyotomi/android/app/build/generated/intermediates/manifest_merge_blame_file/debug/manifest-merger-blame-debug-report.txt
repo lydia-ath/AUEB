@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test.toyotomi_new_era"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\Marilena\AndroidStudioProjects\caches\transforms-2\files-2.1\3d8f3aa9beec41485ddddd4268fa3ba8\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:11:9-40
+22        <activity android:name="com.test.toyotomi_new_era.AirTypeActivity" />
+22-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:12:9-53
+22-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:12:19-50
+23        <activity android:name="com.test.toyotomi_new_era.TimerActivity" />
+23-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:13:9-51
+23-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:13:19-48
+24        <activity android:name="com.test.toyotomi_new_era.AirDirectionActivity" />
+24-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:14:9-58
+24-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:14:19-55
+25        <activity android:name="com.test.toyotomi_new_era.AirIntensityActivity" />
+25-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:15:9-58
+25-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:15:19-55
+26        <activity android:name="com.test.toyotomi_new_era.SleepActivity" />
+26-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:16:9-51
+26-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:16:19-48
+27        <activity android:name="com.test.toyotomi_new_era.MainActivity" >
+27-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:17:9-23:20
+27-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:17:19-47
+28            <intent-filter>
+28-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\Users\Marilena\Desktop\toyotomi\android\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
