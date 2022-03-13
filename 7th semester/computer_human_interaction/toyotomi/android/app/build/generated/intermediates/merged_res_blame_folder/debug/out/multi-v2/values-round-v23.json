@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Marilena\\Desktop\\toyotomi\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-round-v23\\values-round-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Marilena\\AndroidStudioProjects\\caches\\transforms-2\\files-2.1\\d5d7cbb2b54934ab26230a532f16fddc\\wear-1.0.0\\res\\values-round-v23\\values-round-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,118,204",
+                        "endColumns": "62,85,79",
+                        "endOffsets": "113,199,279"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Marilena\\Desktop\\toyotomi\\android\\app\\src\\main\\res\\values-round\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "58",
+                        "endOffsets": "71"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "284",
+                        "endColumns": "58",
+                        "endOffsets": "338"
+                    }
+                }
+            ]
+        }
+    ]
+}
