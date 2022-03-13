@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/done_alternative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Στην συγκεκριμένη οθόνη μπορείτε να επιλέξετε κάποιο χρονικό διάστημα για το οποίο θέλετε το κλιματιστικό να μείνει ανοιχτό. Όταν παρέλθει αυτό το χρονικό διάστημα, το κλιματιστικό θα απενεργοποιηθεί αυτόματα. Οι επιλογές που υπάρχουν αντιστοιχούν στα χρονικά διαστήματα που μπορείτε να επιλέξετε. \nΆν έχετε επιλέξει μια επιλογή και δεν θέλετε αυτή να ισχύσει μπορείτε να πατήσετε το κουμπί 'Ακύρωση' στο κάτω αριστερό μέρος της οθόνης. \nΌταν έχει αποθηκευτεί κάποιο χρονικό διάστημα, σας δίνεται η δυνατότητα ακύρωσης του χρονομέτρου μέσω της αντίστοιχης επιλογής που εμφανίζεται όταν έρθετε πάλι σε αυτήν την οθόνη."
+                android:textSize="36dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

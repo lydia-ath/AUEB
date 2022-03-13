@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/done_alternative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Για να πατήσετε ολοκλήρωση θα πρέπει να έχετε επιλέξει μια από τις επιλογές. Αν δεν θελετε να επιλέξετε κάτι, πατήστε 'ΑΚΥΡΩΣΗ'."
+        android:textSize="36dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/done_alternative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Στην συγκεκριμένη οθόνη μπορείτε να επιλέξετε το είδος αέρα που θα εξέρχεται από το
+                            κλιματιστικό. \nΆν έχετε επιλέξει μια επιλογή και δεν θέλετε αυτή να ισχύσει μπορείτε να
+                            πατήσετε το κουμπί 'Ακύρωση' στο κάτω αριστερό μέρος της οθόνης.
+                            \n\n&#8226;Μπορείτε να χρησιμοποιήσετε την επιλογή κρύου αέρα αν θέλετε να ρίξετε
+                            την θερμοκρασία στον χώρο. \n\n•Μπορείτε να χρησιμοποιήσετε την επιλογή ζεστού αέρα
+                            αν θέλετε να αυξήσετε την θερμοκρασία του χώρου. \n\n•Μπορείτε να χρησιμοποιήσετε την
+                            επιλογή του ξηρού αέρα αν θέλετε να μειωθεί υγρασία που μπορεί να υπάρχει στον χώρο.
+                            \n\n•Μπορείτε να χρησιμοποιήσετε την επιλογή του ανεμιστήρα αν θέλετε να κρατήσετε την
+                            θερμοκρασία δωματίου."
+                android:textSize="36dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

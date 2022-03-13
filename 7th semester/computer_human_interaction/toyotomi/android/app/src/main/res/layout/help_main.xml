@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/done_alternative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="•Ο τύπος αέρα σας επιτρέπει να ρυθμίσετε το έιδος του αέρα(κρύος/ζεστός/ξηρός/ λειτουργία ανεμιστήρα).\n\n• Η ένταση αέρα σας επιτρέπει να ρυθμίσετε τη δύναμη με την οποία  εκπέμπεται ο αέρας.\n\n•Η λειτουργία ύπνου σας επιτρέπει να εξασφαλίσετε αυτόματα τις βέλτιστές συνθήκες για τον ύπνο σας.\n\n•Το χρονόμετρο σας επιτρέπει να ορίσετε μετά απο πόση ώρα επιθυμείτε να απενεργοποιηθεί το κλιματιστικό σας.\n\n• Η κατεύθυνσει αέρα σας επιτρέπει να ρυθμίσετε την κατανομή του αέρα στον χώρο σας."
+                android:textAlignment="inherit"
+                android:textAllCaps="false"
+                android:textDirection="firstStrongRtl"
+                android:textSize="36dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

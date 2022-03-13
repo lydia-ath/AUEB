@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/done_alternative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Με την επιλογή αυτή μπορείτε να ελέγξετε την ένταση του αέρα με την οποία θα εκπέμπει το κλιματιστικό σας. Οι εικόνες που βρίσκονται στα δεξιά κάθε επιλογής υποδεικνύουν την αντίστοιχη ένταση του αέρα, προσομοιάζοντας ένα κοντέρ ταχυτήτων. Ανάλογα με το πόσο δεξιά στην εικόνα βρίσκεται το βέλος, τόσο πιο δυνατή ένταση επιλέγεται. \nΆν έχετε επιλέξει μια επιλογή και δεν θέλετε αυτή να ισχύσει μπορείτε να πατήσετε το κουμπί 'Ακύρωση' στο κάτω αριστερό μέρος της οθόνης. "
+            android:textAlignment="inherit"
+            android:textAllCaps="false"
+            android:textDirection="firstStrongRtl"
+            android:textSize="36dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

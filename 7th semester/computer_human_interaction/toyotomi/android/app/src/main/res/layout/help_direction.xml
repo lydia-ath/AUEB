@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/done_alternative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Με την επιλογή αυτή μπορείτε να ελέγξετε την κατεύθυνση του αέρα στην οποία θα εκπέμπει το κλιματιστικό σας. Μπορείτε να βασιστείτε στις εικόνες που παρουσιάζονται στις επιλογές. Τα μπλε βέλη υποδεικνύουν την κατέυθυνση του αέρα σε κάθε περίπτωση. \nΆν έχετε επιλέξει μια επιλογή και δεν θέλετε αυτή να ισχύσει μπορείτε να πατήσετε το κουμπί 'Ακύρωση' στο κάτω αριστερό μέρος της οθόνης. "
+        android:textSize="36dp" />
+
+
+</LinearLayout>
