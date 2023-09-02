@@ -1,0 +1,31 @@
+BEGINTRANSACTION
+
+TELL Individual EntityO in M1_Class 
+end EntityO
+
+TELL Attribute tr 
+from: EntityO
+to: EntityO
+in M1_Class
+end tr
+
+TELL Individual Object in S_Class, EntityO
+end Object
+
+TELL Attribute consistsOf
+from: Object
+to: Object
+in S_Class, tr
+end consistsOf
+
+TELL Individual Location in S_Class, EntityO
+end Location
+
+TELL Attribute includes
+from: Location
+to: Location
+in S_Class, tr
+end includes
+
+ENDTRANSACTION
+

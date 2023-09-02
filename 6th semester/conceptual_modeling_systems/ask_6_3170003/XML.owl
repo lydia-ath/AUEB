@@ -1,0 +1,2500 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lydia/ontologies/2020/4/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lydia/ontologies/2020/4/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/lydia/ontologies/2020/4/untitled-ontology-2"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refugee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCousins"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGrandChild"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGrandParents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHunsband"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasKid"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMarriedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSibling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWife"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BeforeMiggrationJob"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#firstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGendre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isFemale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isMale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#job"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lastName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locationOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locationOfDeath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nickName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#road"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#telephone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tk"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yearOfBirth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yearOfDeath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yearOfMiggration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jerardin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ανέστης"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Βάσω"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Βασιλική"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Βασούλα"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Γεώργιος"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Γιάννης"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Δημήτρης"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ελένη"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Κυριάκο"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Κυριακή"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Κώστας"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Λυδία"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ολυμπία"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ορέστη"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Πέτρος"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Σπύρο"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Person"/>
+        <ObjectUnionOf>
+            <Class IRI="#Person"/>
+            <Class IRI="#Refugee"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#yearOfBirth"/>
+            <Datatype abbreviatedIRI="xsd:long"/>
+        </DataExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFather"/>
+            <Class IRI="#Person"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMother"/>
+            <Class IRI="#Person"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#address"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#telephone"/>
+            <Datatype abbreviatedIRI="xsd:long"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#locationOfBirth"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#locationOfDeath"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#yearOfBirth"/>
+            <Datatype abbreviatedIRI="xsd:long"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#yearOfDeath"/>
+            <Datatype abbreviatedIRI="xsd:long"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#hasGendre"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#job"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refugee"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refugee"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#yearOfMiggration"/>
+            <Datatype abbreviatedIRI="xsd:unsignedLong"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refugee"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#BeforeMiggrationJob"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#George"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Jerardin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Mary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#hary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Βάσω"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Refugee"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Ελένη"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Κώστας"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#George"/>
+        <NamedIndividual IRI="#hary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#George"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Mary"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCousins"/>
+        <NamedIndividual IRI="#hary"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCousins"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <NamedIndividual IRI="#Κώστας"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Βάσω"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Κώστας"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Ελένη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <NamedIndividual IRI="#Βάσω"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Jerardin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Βάσω"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Κώστας"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <NamedIndividual IRI="#Jerardin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Βάσω"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <NamedIndividual IRI="#Κώστας"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <NamedIndividual IRI="#hary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <NamedIndividual IRI="#Ελένη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCousins"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <NamedIndividual IRI="#Βάσω"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCousins"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCousins"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCousins"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <NamedIndividual IRI="#Jerardin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <NamedIndividual IRI="#Ελένη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <NamedIndividual IRI="#hary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <NamedIndividual IRI="#Mary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Λυδία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Jerardin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Βάσω"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Κώστας"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Ελένη"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <NamedIndividual IRI="#hary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasKid"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWife"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <NamedIndividual IRI="#Ελένη"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#George"/>
+        <Literal>16 Ieraodos 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#George"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#George"/>
+        <Literal>Architect</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#George"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#George"/>
+        <Literal>Gearge Arvanitis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#George"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Jerardin"/>
+        <Literal>12 Kotzia 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Jerardin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Jerardin"/>
+        <Literal>Marousi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Jerardin"/>
+        <Literal>Jerardin Kiriazanou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Jerardin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>14 Ieraodos 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>Lawer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>Maria Laureti</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#hary"/>
+        <Literal>16 Ieraodos 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#hary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#hary"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#hary"/>
+        <Literal>Haralampos Arvanitis Hary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#hary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <Literal>13 Eirinis 19015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <Literal>Master</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfDeath"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <Literal>Marousi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <Literal>Άγγελος-Ιωάννης Αθανασίου</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#telephone"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6909818038</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Άγγελος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+        <Literal>8 Ieraodos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+        <Literal>Anestis Xrisomalis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Ανέστης"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <Literal>13 eirinis 19015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <Literal>Cosmetics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <Literal>Vasiliki Veloudi Vaso</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Βάσω"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BeforeMiggrationJob"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal>Οικιακά</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal>8 Ieraodos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal>housewife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal>Πόντος</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfDeath"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal>Βασιλική Θωμλούδη</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1921</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfDeath"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfMiggration"/>
+        <NamedIndividual IRI="#Βασιλική"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1930</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <Literal>6 Ambelokipous 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <Literal>Cosmetics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <Literal>Vasiliki Arvanitidou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Βασούλα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1982</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <Literal>13 eirinis 19015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <Literal>Captain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <Literal>Athens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <Literal>Georgios Athanasiou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Γεώργιος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1961</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <Literal>17 Eirinis 19015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <Literal>PoliticalEngineer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <Literal>Giannis Veloudis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Γιάννης"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1944</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <Literal>6 Ambelokipous 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <Literal>SaleMan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <Literal>Γεώργιος Αρβανιτίδης Γιωργάκης</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Γιωργάκη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <Literal>12 Kotzia 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <Literal>Engineer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <Literal>Pereus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <Literal>Dimitris Kiriazanos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Δημήτρης"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1980</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <Literal>2 Iridos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <Literal>SalesPerson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <Literal>Eirini Velousi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Ειρήνη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1968</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <Literal>2 Ieraodos 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <Literal>HouseWife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <Literal>Eleni Mixaloliakou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Ελένη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1948</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <Literal>8 Ieraodos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <Literal>Cosmetics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <Literal>Katerina Arvanitidou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Κατερίνα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1971</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal>6 ambelokipous 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal>PoliticalEngineer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfDeath"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal>Kiriakos Arvanitidis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1944</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfDeath"/>
+        <NamedIndividual IRI="#Κυριάκο"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <Literal>6 ampelokipous 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <Literal>HouseWife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <Literal>Kiriaki Mixaloliakou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Κυριακή"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1950</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <Literal>2 Iridos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <Literal>ShipingsOperator</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <Literal>Marousi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <Literal>Konstantinos Vasiliou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Κωνσταντίνος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1992</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <Literal>15 Eirinis 19015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <Literal>Security</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <Literal>Kostas Veloudis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Κώστας"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1965</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <Literal>13 Eirinis 19015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <Literal>Studies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <Literal>Marousi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <Literal>Lydia Athanasiou Lidie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#telephone"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6987878074</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Λυδία"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <Literal>12 Kotzia 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <Literal>Engineer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <Literal>Marousi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <Literal>Marianna Vasiliou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Μαριάννα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1989</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal>8 Ieraodos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal>Κουρέας</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfDeath"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal>Μιχάλης Μιχαλολιάκος</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1920</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfDeath"/>
+        <NamedIndividual IRI="#Μιχάλη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <Literal>16 Ieraodos 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <Literal>Teacher</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <Literal>Olimpia Triantafillou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Ολυμπία"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1972</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <Literal>8 Ieraodos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <Literal>Ecomonist</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <Literal>Orestis Xrisomalis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Ορέστη"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <Literal>2 Iridos 12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <Literal>TourGuide</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <Literal>Athens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <Literal>Petros Vasiliou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Πέτρος"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1968</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <Literal>14 Ieraodos 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <Literal>PoliticalEngineer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <Literal>Spiros Triantafillou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Σπύρο"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1969</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <Literal>17 Eirinis 19015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isFemale"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <Literal>HouseWife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <Literal>Stauroula Mixaloliakou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Σταυρούλα"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1949</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <Literal>2 Ieraodos 67890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isMale"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#job"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <Literal>SalesMan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#locationOfBirth"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <Literal>Thessaloniki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <Literal>Xaralampos Triantafillou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yearOfBirth"/>
+        <NamedIndividual IRI="#Χαράλαμπο"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1948</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCousins"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFather"/>
+        <ObjectProperty IRI="#hasParents"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <ObjectProperty IRI="#hasMarriedWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasKid"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMarriedWith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMother"/>
+        <ObjectProperty IRI="#hasParents"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParents"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSibling"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWife"/>
+        <ObjectProperty IRI="#hasMarriedWith"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <ObjectProperty IRI="#hasGrandParents"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <ObjectProperty IRI="#hasWife"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasKid"/>
+        <ObjectProperty IRI="#hasParents"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasHunsband"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#hasWife"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasGrandChild"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasGrandParents"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasSibling"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCousins"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCousins"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasParents"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Person"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasSibling"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Person"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#hasKid"/>
+                                <Class IRI="#Person"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFather"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasKid"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Person"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasKid"/>
+                        <Class IRI="#Person"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasParents"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Person"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasParents"/>
+                        <Class IRI="#Person"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasKid"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Person"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasKid"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Person"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#hasKid"/>
+                                <Class IRI="#Person"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#isFemale"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasKid"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMarriedWith"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMother"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParents"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSibling"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWife"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWife"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#isMale"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCousins"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFather"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFather"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#isMale"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGrandChild"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGrandParents"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGrateGrandSon"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHunsband"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#isMale"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasKid"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMarriedWith"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMother"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMother"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#isFemale"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParents"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSibling"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWife"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWife"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <DataHasValue>
+                <DataProperty IRI="#isFemale"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#BeforeMiggrationJob"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#address"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#firstName"/>
+        <DataProperty IRI="#name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasGendre"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isFemale"/>
+        <DataProperty IRI="#hasGendre"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isMale"/>
+        <DataProperty IRI="#hasGendre"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#job"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#lastName"/>
+        <DataProperty IRI="#name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#locationOfBirth"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#locationOfDeath"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nickName"/>
+        <DataProperty IRI="#name"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#number"/>
+        <DataProperty IRI="#address"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#road"/>
+        <DataProperty IRI="#address"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#telephone"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tk"/>
+        <DataProperty IRI="#address"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#yearOfBirth"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#yearOfDeath"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#yearOfMiggration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BeforeMiggrationJob"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#address"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#firstName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGendre"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isFemale"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isMale"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#job"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lastName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locationOfBirth"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locationOfDeath"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nickName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#number"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#address"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#road"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#address"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#telephone"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tk"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#address"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#yearOfBirth"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#yearOfDeath"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#yearOfMiggration"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#BeforeMiggrationJob"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#firstName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGendre"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isFemale"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isMale"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#job"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lastName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locationOfBirth"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locationOfDeath"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nickName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#road"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#telephone"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tk"/>
+        <Datatype abbreviatedIRI="xsd:unsignedInt"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#yearOfBirth"/>
+        <Datatype abbreviatedIRI="xsd:unsignedLong"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#yearOfDeath"/>
+        <Datatype abbreviatedIRI="xsd:unsignedLong"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#yearOfMiggration"/>
+        <Datatype abbreviatedIRI="xsd:unsignedInt"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

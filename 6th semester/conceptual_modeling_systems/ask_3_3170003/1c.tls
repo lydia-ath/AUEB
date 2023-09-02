@@ -1,0 +1,74 @@
+BEGINTRANSACTION
+
+TELL Individual NumberCode in S_Class
+with attribute deferentOf: NumberCode
+end NumberCode
+
+TELL Individual Object in S_Class 
+end Object
+
+TELL Attribute hasNumber
+from: Object
+to: NumberCode
+in S_Class 
+end hasNumber
+
+TELL Individual MotorNumber in S_Class isA NumberCode
+end MotorNumber
+
+TELL Individual Motor in S_Class isA Object
+end Motor
+
+TELL Attribute hasMotorNumber
+from: Motor
+to: MotorNumber
+in S_Class, hasNumber
+end hasMotorNumber
+
+TELL Individual FrameNumber in S_Class isA NumberCode
+end FrameNumber
+
+TELL Individual Car in S_Class isA Object
+with attribute hasPart: Motor
+end Car
+
+TELL Attribute hasFrameNumber
+from: Car
+to: FrameNumber
+in S_Class isA hasNumber
+end hasFrameNumber
+
+TELL Individual IdPassport in S_Class isA NumberCode
+end IdPassport
+
+TELL Individual Person in S_Class
+with attribute hasIdPassport: IdPassport
+end Person
+
+TELL Attribute hasIdPassport
+from: Person
+to: IdPassport
+in S_Class isA hasNumber
+end hasIdPassport
+
+TELL Individual Date in S_Class 
+end Date
+
+TELL Attribute owns
+from: Person
+to: Car
+in S_Class
+with attribute
+dateOfSale: Date
+end owns
+
+TELL Individual Value in S_Class
+end Value 
+
+TELL Individual Sale in S_Class
+with attribute objectSaled: Car
+with attribute price: Value 
+with attribute salePerson: Person
+end Sale
+
+ENDTRANSACTION

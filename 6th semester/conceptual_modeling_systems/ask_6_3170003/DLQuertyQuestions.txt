@@ -1,0 +1,24 @@
+DL Query Questions 
+
+--Ερωτήσεις για εύρεση όλων των τάξεων και όλων των πραγματώσεων κάθε τάξης
+
+1.Person and hasSibling some Person 
+2.Person and hasMarriedWith some Person 
+3.Person and hasKid some Person 
+4.Person and hasGrandChild some Person 
+5.Person and hasGrateGrandSon some Person 
+
+-- Ερώτηση για εμφάνηση όλων των τέκνων ενός προσώπου
+6.Person and hasParents value Γεώργιος
+
+--Ερώτηση για εμφάνηση όλων των τέκνων ενός ζευγαριού
+7. Person and hasParents value Μιχάλη and  hasParents value Βασιλική
+
+--Ερώτηση για εμφάνηση όλων των εγγονών ενός ζευγαριού
+8.Person and hasGrandParents value Μιχάλη and hasGrandParents value Βασιλική
+
+--Ερώτηση για εμφάνηση όλων των εξαδέλφων ενός προσώπου
+9. Person and hasCousins value Λυδία
+
+--Ερώτηση για εμφάνηση όλων των δισεγγονών ενός Προσώπου
+10.Person and hasGrateGrandSon value Jerardin

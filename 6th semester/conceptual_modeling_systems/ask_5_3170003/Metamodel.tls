@@ -1,0 +1,610 @@
+BEGINTRANSACTION
+
+TELL Individual EntityType in M1_Class
+end EntityType
+
+TELL Individual Constrained in M1_Class
+end Constrained
+
+TELL Attribute hasAttribute
+from: EntityType
+to: EntityType
+in M1_Class
+with attribute constrained: Constrained
+end hasAttribute
+
+TELL Individual ProcessType in M1_Class
+end ProcessType
+
+TELL Attribute input
+from: EntityType
+to: ProcessType
+in M1_Class
+end input
+
+TELL Attribute control
+from: EntityType
+to: ProcessType
+in M1_Class
+end output
+
+TELL Attribute mechanism
+from: EntityType
+to: ProcessType
+in M1_Class
+end mechanism
+
+TELL Attribute output
+from: ProcessType
+to: EntityType 
+in M1_Class
+end output
+
+TELL Individual OneToMany in S_Class, Constrained
+end OneToMany
+
+TELL Individual ZeroToMany in S_Class, Constrained
+end ZeroToMany
+
+TELL Individual OneToOne in S_Class, Constrained
+end OneToOne
+
+TELL Individual FirstName in S_Class, EntityType
+end FirstName
+
+TELL Individual LastName in S_Class, EntityType
+end LastName
+TELL Individual Patronym in S_Class, EntityType
+end Patronym
+TELL Individual Mothername in S_Class, EntityType
+end Mothername
+TELL Individual Address in S_Class, EntityType
+end Address
+TELL Individual BirthDate in S_Class, EntityType
+end BirthDate
+TELL Individual ADT in S_Class, EntityType
+end ADT
+TELL Individual AFM in S_Class, EntityType
+end AFM
+TELL Individual DOY in S_Class, EntityType
+end DOY
+TELL Individual ID in S_Class, EntityType
+end ID
+
+TELL Individual Consumer in S_Class, EntityType
+end Consumer
+
+TELL Individual TransferOrder in S_Class, ProcessType
+end TransferOrder
+
+TELL Individual ExecutionOrder in S_Class, ProcessType
+end ExecutionOrder
+
+TELL Attribute mechanism1
+from: Consumer
+to: TransferOrder
+in S_Class, mechanism
+end name
+
+TELL Attribute mechanism2
+from: Consumer
+to: ExecutionOrder
+in S_Class, mechanism
+end mechanism2
+
+TELL Attribute name
+from: Consumer
+to: FirstName
+in S_Class, hasAttribute
+with constrained: OneToOne
+end name 
+
+TELL Attribute surname
+from: Consumer
+to: LastName
+in S_Class, hasAttribute
+with constrained: OneToOne
+end surname
+
+TELL Attribute patronym
+from: Consumer
+to: Patronym
+in S_Class, hasAttribute
+with constrained: OneToOne
+end patronym
+
+TELL Attribute mothername
+from: Consumer
+to: Mothername
+in S_Class, hasAttribute
+with constrained: OneToOne
+end mothername
+
+TELL Attribute fullAddress
+from: Consumer
+to: Address
+in S_Class, hasAttribute
+with constrained: OneToMany
+end fullAddress
+
+TELL Attribute fullAddress
+from: Consumer
+to: Address
+in S_Class, hasAttribute
+with constrained: OneToMany
+end fullAddress
+
+TELL Attribute bithday
+from: Consumer
+to: BirthDate
+in S_Class, hasAttribute
+with constrained: OneToOne
+end bithday
+
+TELL Attribute adt
+from: Consumer
+to: ADT
+in S_Class, hasAttribute
+with constrained: OneToOne
+end adt
+
+TELL Attribute afm
+from: Consumer
+to: AFM
+in S_Class, hasAttribute
+with constrained: OneToOne
+end afm
+
+TELL Attribute doy
+from: Consumer
+to: DOY
+in S_Class, hasAttribute
+with constrained: OneToOne
+end doy
+
+TELL Attribute id
+from: Consumer
+to: ID
+in S_Class, hasAttribute
+with constrained: OneToOne
+end id
+
+TELL Individual ConsumerInfo in S_Class, EntityType
+end ConsumerInfo
+
+TELL Individual TransferOrder in S_Class, ProcessType
+end TransferOrder
+
+TELL Attribute refersTo
+from: ConsumerInfo
+to: Consumer
+in S_Class, hasAttribute
+with constrained: OneToOne
+end ConsumerInfo
+
+TELL Attribute input1
+from: ConsumerInfo
+to: TransferOrder
+in S_Class, input
+end input1
+
+TELL Individual ComandPrompt in S_Class, EntityType
+end ConsumerInfo
+
+TELL Attribute fromConsumer
+from: ComandPrompt
+to: Consumer
+in S_Class, hasAttribute
+with constrained: OneToOne
+end fromConsumer
+
+TELL Attribute input2
+from: ComandPrompt
+to: TransferOrder
+in S_Class, input
+end input2
+
+TELL Attribute input3
+from: ComandPrompt
+to: ExecutionOrder
+in S_Class, input
+end input3
+
+TELL Individual ShareTitle in S_Class, EntityType
+end ShareTitle
+
+TELL Individual Brand in S_Class, EntityType
+end Brand
+
+TELL Individual IdNum in S_Class, EntityType
+end IdNum
+
+TELL Attribute hasBrand
+from: ShareTitle
+to: Brand
+in S_Class, hasAttribute
+with constrained: OneToOne
+end hasBrand
+
+TELL Attribute hasIdNum
+from: ShareTitle
+to: IdNum
+in S_Class, hasAttribute
+with constrained: OneToOne
+end hasIdNum
+
+TELL Attribute input4
+from: ShareTitle
+to: TransferOrder
+in S_Class, input
+end input4
+
+TELL Individual Comand in S_Class, EntityType
+end Comand
+
+TELL Individual TimeTarget in S_Class, EntityType
+end TimeTarget
+
+TELL Attribute control5
+from: TimeTarget
+to: ExecutionOrder
+in S_Class, control
+end control5
+
+TELL Individual ValueTarget in S_Class, EntityType
+end ValueTarget
+
+TELL Attribute control3
+from: ValueTarget
+to: ExecutionOrder
+in S_Class, control
+end control3
+
+TELL Individual VolumeTarget in S_Class, EntityType
+end VolumeTarget
+
+TELL Attribute control4
+from: VolumeTarget
+to: ExecutionOrder
+in S_Class, control
+end control4
+
+TELL Individual Purchased in S_Class, EntityType
+end Purchased
+TELL Individual Saled in S_Class, EntityType
+end Saled
+
+TELL Attribute brand
+from: Comand
+to: Brand
+in S_Class, hasAttribute
+with constrained: OneToOne
+end brand
+
+TELL Attribute hasTimeSpace
+from: Comand
+to: TimeTarget
+in S_Class, hasAttribute
+with constrained: OneToOne
+end hasTimeSpace
+
+TELL Attribute hasValueTarget
+from: Comand
+to: ValueTarget
+in S_Class, hasAttribute
+with constrained: OneToOne
+end hasValueTarget
+
+TELL Attribute hasVolumeTarget
+from: Comand
+to: VolumeTarget
+in S_Class, hasAttribute
+with constrained: OneToOne
+end hasVolumeTarget
+
+TELL Attribute isPurchased
+from: Comand
+to: Purchased
+in S_Class, hasAttribute
+with constrained: OneToOne
+end isPurchased
+
+TELL Attribute isSaled
+from: Comand
+to: Saled
+in S_Class, hasAttribute
+with constrained: OneToOne
+end isSaled
+
+TELL Individual CanselationComand in S_Class, EntityType isA Comand
+end CanselationComand
+
+TELL Attribute orderBy
+from: CanselationComand
+to: Consumer
+in S_Class, hasAttribute
+with constrained: OneToOne
+end orderBy
+
+TELL Attribute input5
+from: CanselationComand
+to: ExecutionOrder
+in S_Class, input
+end input5
+
+TELL Individual ConsumerRegistered in S_Class, EntityType isA Consumer
+end ConsumerRegistered
+
+TELL Attribute control1
+from: ConsumerRegistered
+to: TransferOrder
+in S_Class, control
+end control1
+
+TELL Attribute is
+from: ConsumerRegistered
+to: Consumer
+in S_Class, hasAttribute
+with constrained: ZeroToMany
+end is
+
+TELL Individual ComandCondition in S_Class, EntityType isA Comand
+end ComandCondition
+
+TELL Individual Runs in S_Class, EntityType
+end Runs
+TELL Individual Completed in S_Class, EntityType
+end Completed
+TELL Individual Canceled in S_Class, EntityType
+end Canceled
+
+TELL Attribute runs
+from: ComandCondition
+to: Runs
+in S_Class, hasAttribute
+with constrained: OneToOne
+end runs
+
+TELL Attribute completed
+from: ComandCondition
+to: Completed
+in S_Class, hasAttribute
+with constrained: OneToOne
+end completed
+
+TELL Attribute canceled
+from: ComandCondition
+to: Canceled
+in S_Class, hasAttribute
+with constrained: OneToOne
+end canceled
+
+TELL Attribute control2
+from: ComandCondition
+to: ExecutionOrder
+in S_Class, control
+end control2
+
+TELL Attribute output1
+from: TransferOrder
+to: ComandCondition
+in S_Class, output
+end output1
+
+TELL Attribute output2
+from: TransferOrder
+to: Comand
+in S_Class, output
+end output2
+
+TELL Attribute input6
+from: Comand
+to: ExecutionOrder
+in S_Class, input
+end input6
+
+TELL Attribute saled
+from: ShareTitle
+to: Saled
+in S_Class, hasAttribute
+with constrained: OneToOne
+end saled
+
+TELL Attribute purchased
+from: ShareTitle
+to: Purchased
+in S_Class, hasAttribute
+with constrained: OneToOne
+end purchased
+
+TELL Individual OrderClearance in S_Class, ProcessType
+end OrderClearance
+
+TELL Attribute output3
+from: ExecutionOrder
+to: ShareTitle
+in S_Class, output
+end output3
+
+TELL Attribute input7
+from: ShareTitle
+to: OrderClearance
+in S_Class, input
+end input7
+
+TELL Individual CertifiedConsumer in S_Class, EntityType isA Consumer
+end CertifiedConsumer
+
+TELL Attribute output4
+from: TransferOrder
+to: CertifiedConsumer
+in S_Class, output
+end output4
+
+TELL Attribute control6
+from: CertifiedConsumer
+to: ExecutionOrder
+in S_Class, control
+end control6
+
+TELL Attribute control7
+from: CertifiedConsumer
+to: OrderClearance
+in S_Class, control
+end control7
+
+TELL Individual MessageFailure in S_Class, EntityType
+end MessageFailure
+
+TELL Attribute goes_to
+from: MessageFailure
+to: Consumer
+in S_Class, hasAttribute
+with constrained: ZeroToMany
+end goes_to
+
+TELL Attribute output5
+from: TransferOrder
+to: MessageFailure
+in S_Class, output
+end output5
+
+TELL Attribute output6
+from: ExecutionOrder
+to: MessageFailure
+in S_Class, output
+end output6
+
+TELL Attribute output7
+from: OrderClearance
+to: MessageFailure
+in S_Class, output
+end output7
+
+TELL Individual TotalSuply in S_Class, EntityType
+end TotalSuply
+
+TELL Attribute output8
+from: OrderClearance
+to: TotalSuply
+in S_Class, output
+end output8
+
+TELL Individual PortionUpdate in S_Class, EntityType
+end PortionUpdate
+TELL Individual Securities in S_Class, EntityType
+end Securities
+TELL Individual Cash in S_Class, EntityType
+end Cash
+
+TELL Attribute output9
+from: OrderClearance
+to: PortionUpdate
+in S_Class, output
+end output9
+
+TELL Attribute hasSecurities
+from: PortionUpdate
+to: Securities
+in S_Class, hasAttribute
+with constrained: ZeroToMany
+end hasSecurities
+
+TELL Attribute hasCash
+from: PortionUpdate
+to: Cash
+in S_Class, hasAttribute
+with constrained: ZeroToMany
+end hasCash
+
+TELL Attribute update_to
+from: PortionUpdate
+to: Consumer
+in S_Class, hasAttribute
+with constrained: ZeroToMany
+end update_to
+
+TELL Individual Report in S_Class, EntityType
+end Report
+
+TELL Individual AchivedTime in S_Class, EntityType
+end AchivedTime
+
+TELL Individual AchivedValue in S_Class, EntityType
+end AchivedValue
+
+TELL Individual TransactionVolume in S_Class, EntityType
+end TransactionVolume
+
+TELL Individual NumberOfShares in S_Class, EntityType
+end NumberOfShares
+
+TELL Individual StockTitles in S_Class, EntityType
+end StockTitles
+
+TELL Individual Type in S_Class, EntityType
+end Type
+
+TELL Attribute output10
+from: OrderClearance
+to: Report
+in S_Class, output
+end output10
+
+TELL Attribute sending_to
+from: Report
+to: Consumer
+in S_Class, hasAttribute
+with constrained: OneToOne
+end sending_to
+
+TELL Attribute brandy
+from: Report
+to: Brand
+in S_Class, hasAttribute
+with constrained: OneToOne
+end brandy
+
+TELL Attribute time
+from: Report
+to: AchivedTime
+in S_Class, hasAttribute
+with constrained: OneToOne
+end time
+
+TELL Attribute value
+from: Report
+to: AchivedValue
+in S_Class, hasAttribute
+with constrained: OneToOne
+end value
+
+TELL Attribute transactionVolume
+from: Report
+to: TransactionVolume
+in S_Class, hasAttribute
+with constrained: OneToOne
+end transactionVolume
+
+TELL Attribute numberOfShares
+from: Report
+to: NumberOfShares
+in S_Class, hasAttribute
+with constrained: OneToMany
+end numberOfShares
+
+TELL Attribute stokeTitles
+from: Report
+to: StockTitles
+in S_Class, hasAttribute
+with constrained: OneToMany
+end stokeTitles
+
+TELL Attribute type
+from: Report
+to: Type
+in S_Class, hasAttribute
+with constrained: OneToOne
+end type
+
+ENDTRANSACTION

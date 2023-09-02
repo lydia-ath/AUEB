@@ -1,0 +1,84 @@
+BEGINTRANSACTION
+
+TELL Individual Date in S_Class
+end Date
+
+TELL Individual Porportion in S_Class
+end Porportion
+
+TELL Individual ProductPorportion in S_Class isA Porportion
+end ProductPorportion
+
+TELL Individual ProductionPorportion in S_Class isA Porportion
+end ProductionPorportion
+
+TELL Individual Quality in S_Class
+end Quality
+
+TELL Individual Name in S_Class
+end Name
+
+TELL Individual NameProduct in S_Class isA Name
+end NameProduct
+
+TELL Individual Product in S_Class
+with attribute hasQuality: Quality
+with attribute hasProductPorportion: ProductPorportion
+with attribute hasNameProduct: NameProduct
+end Product
+
+TELL Individual Value in S_Class
+end Value
+
+TELL Individual SellsAndPurchases in S_Class
+with attribute referesTo: Product
+with attribute inDate: Date
+with attribute hasProductionPorportion: ProductionPorportion
+with attribute price: Value
+end SellsAndPurchases
+
+TELL Individual NamePerson in S_Class isA Name
+end NamePerson
+
+TELL Individual Person in S_Class
+with attribute participate: SellsAndPurchases
+with attribute hasNamePerson: NamePerson
+end Person
+
+TELL Individual SalesPerson in S_Class isA Person
+end SalesPerson
+
+TELL Individual Suplier in S_Class isA Person
+with attribute sypling: Product
+end Suplier
+
+TELL Individual Baking in Token, Product
+end Baking
+
+TELL Individual SalingBaking in Token, SellsAndPurchases
+with attribute refering: Baking
+end SalingBaking
+
+TELL Individual CompanyB in Token, Suplier
+with attribute salesBaking: SalingBaking
+with attribute productingBaking: Baking
+end CompanyB
+
+TELL Individual Bread in Token, Product
+end Bread
+
+TELL Individual SalingBread in Token,SellsAndPurchases
+with attribute referedTo: Bread 
+end SalingBread
+
+TELL Individual BakerA in Token, Suplier
+with attribute bying: SalingBaking
+with attribute productionBread: Bread
+with attribute salerBread: SalingBread
+end BakerA
+
+TELL Individual Costumer in Token, SalesPerson
+with attribute buy: SalingBread
+end Costumer
+
+ENDTRANSACTION

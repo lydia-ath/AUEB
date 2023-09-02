@@ -1,0 +1,41 @@
+BEGINTRANSACTION
+
+TELL Individual Object in S_Class 
+end Object
+
+TELL Individual NumberCode in S_Class
+end NumberCode
+
+TELL Individual Motor in S_Class isA Object
+with attribute motorNumber: NumberCode
+end Motor
+
+TELL Individual Car in S_Class isA Object
+with attribute frameNumber: NumberCode
+with attribute hasPart: Motor
+end Car
+
+TELL Individual Ownership in S_Class
+with attribute hasDate: Date
+with attribute refersTo: Car
+end Ownership
+
+TELL Individual Person in S_Class
+with attribute idPassport: NumberCode
+with attribute has: Ownership
+end Person
+
+TELL Attribute sale
+from: Person
+to: Car
+in S_Class
+with attribute money: Value
+end sale
+
+TELL Individual Value in S_Class
+end Value 
+
+TELL Individual Date in S_Class 
+end Date
+
+ENDTRANSACTION
